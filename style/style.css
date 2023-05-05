@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 video {
   position: fixed;
   top: 0;
@@ -6,19 +8,19 @@ video {
   min-height: 100%;
   z-index: -100;
   background-size: cover;
-  opacity: 0.3;
+  background-repeat: no-repeat;
 }
 
 body {
   margin: 0px;
   position: relative;
-  min-height: 100vh;
+  color: #dddddd;
   font-size: 24px;
 }
 
 a {
   text-decoration: none;
-  color: #222222;
+  color: #dddddd;
 }
 
 header {
@@ -31,10 +33,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Caveat', cursive;
 }
 
 header #top-button  {
-  font-size: 36px;
+  font-size: 54px;
   width: 150px;
   color: #8e84ff;
   border: solid 3px #8e84ff;
@@ -51,7 +54,8 @@ nav ul {
   display: flex;
   height: 30px;
   align-items: center;
-  border-left: solid 2px #222222;
+  border-left: solid 2px #dddddd;
+  font-size: 36px;
 }
 
 nav li {
@@ -59,29 +63,61 @@ nav li {
   height: 30px;
   display: flex;
   align-items: center;
-  border-right: solid 2px #222222;
+  border-right: solid 2px #dddddd;
 }
 
 #main {
   width: 70%;
   margin: 0 auto;
-  padding-top: 400px;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Caveat', cursive;
 }
 
 #main-text {
-  width: 40%;
+  width: 60%;
 }
 
 #main-text h2 {
   color: #8e84ff;
-  font-size: 36px;
+  font-size: 54px;
 }
 
 #main-text h1 {
-  font-size: 72px;
+  font-size: 108px;
   margin: 0;
 }
 
+.content {
+  padding: 50px 0;
+}
+
+.content-title {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content-text {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#about {
+  background-color: #7b6fff40;
+}
+
+#works {
+  background-color: #6fc8ff40;
+}
+
+#tips {
+  background-color: #7bff6f40;
+}
+
+.content h2 {
+  font-size: 81px;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+}
