@@ -91,16 +91,14 @@ nav li {
 }
 
 .content {
-  padding: 50px 0;
+  padding: 50px 15%;
 }
 
 .content-title {
-  width: 70%;
   margin: 0 auto;
 }
 
 .content-text {
-  width: 70%;
   margin: 0 auto;
 }
 
