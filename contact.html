@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>ShunsukeYamamoto's portflio</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/tips_style.css">
+    <link rel="stylesheet" href="style/contact_style.css">
     <link rel="icon" href="/image/myicon_circle.png">
 </head>
 
@@ -28,20 +28,26 @@
             </ul>
         </nav>
     </header>
-    <div id="tips-main">
-        <div id="tips-top">
-            <div id="tips-text">
-                <h1>tips</h1>
+    <div id="contact-main">
+        <div id="contact-top">
+            <div id="contact-text">
+                <h1>Contact</h1>
             </div>
         </div>
-        <div class="tips_content">
-            <div class="tips_list">
-                <button class="tip_button">
-                    <a href="tips/scikit-learn2.html">
-                        <p>scikit-learn...による実践機械学習 第2版を読むぞ</p>
-                    </a>
-                </button>
-            </div>
+        <div class="contact-content">
+            <label>
+                <p>名前：</p>
+                <input type="text" id="name" />
+            </label>
+            <label>
+                <p>メールアドレス：</p>
+                <input type="text" id="mail-address" />
+            </label>
+            <label>
+                <p>メッセージ：</p>
+                <textarea type="text" id="name"></textarea>
+            </label>
+            <button id="contact-submit">送信</button>
         </div>
     </div>
 </body>
