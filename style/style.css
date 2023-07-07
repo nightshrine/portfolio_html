@@ -6,21 +6,35 @@ video {
   left: 0;
   min-width: 100%;
   min-height: 100%;
+  opacity: 0.2;
   z-index: -100;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0px;
   position: relative;
   color: #dddddd;
+  background-color: #222222;
   font-size: 24px;
 }
 
 a {
   text-decoration: none;
   color: #dddddd;
+}
+.content a {
+  text-decoration: underline;
+  color: #dddddd;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 header {
@@ -40,8 +54,9 @@ header #top-button  {
   font-size: 54px;
   width: 150px;
   color: #8e84ff;
-  border: solid 3px #8e84ff;
-  border-radius: 22px;
+  border: 4px solid #dddddd;
+  background-color: #8e84ff;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
