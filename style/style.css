@@ -130,6 +130,10 @@ nav li {
   text-align: center;
 }
 
+.work-frame {
+  margin-bottom: 100px;
+}
+
 .work-content {
   /* 既存のスタイル */
   display: flex; /* 追加: 要素を横に並べる */
