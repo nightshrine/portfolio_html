@@ -15,16 +15,16 @@
   </video>
   <header>
     <div id="top-button">
-      <a href="index.html">
+      <a href="#">
         Top
       </a>
     </div>
     <nav>
       <ul>
-        <li><a id="menu" href="about.html">About</a></li>
-        <li><a id="menu" href="works.html">Works</a></li>
-        <li><a id="menu" href="tips.html">Tips</a></li>
-        <li><a id="menu" href="contact.html">Contact</a></li>
+        <li><a id="menu" href="#about">About</a></li>
+        <li><a id="menu" href="#works">Works</a></li>
+        <li><a id="menu" href="#tips">Tips</a></li>
+        <li><a id="menu" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -43,11 +43,15 @@
     </div>
     <div class="content-text" id="about-text">
       <p>
-        2001年生まれ。現在、大学4年生。<br>
-        2020年：プログラミングを始め、競技プログラミングに打ち込む。（Atcoderレート: 1101）<br>
-        2021年：冬から在宅バイトを始め、Web開発に取り組んでいる。<br>
-        2023年：自然言語処理系の研究室に所属し、特許文書間の検索システムを製作中。<br>
-        2024年：大学院に進学予定
+        2001年生まれ。現在、大学4年生です。<br><br>
+        <h3>2020年：</h3>
+        プログラミングを始め、数ヶ月間全力で競技プログラミングに打ち込みました。（Atcoderレート: 1101, <a href="https://atcoder.jp/users/nightshrine">Atcoderマイページ</a>）<br>
+        <h3>2021年：</h3>
+        11月から在宅バイトを始め、Web開発を主に取り組んでいます。ReactやLaravelなどを活用し、既存のWebサイトの拡張や新規作成を手がけてきました。Gitを使用した開発、MySQLを含むDBを利用したWeb開発、MacやLinux上での開発経験を積みました。<br>
+        <h3>2023年：</h3>
+        4月から自然言語処理系の研究室に所属し、特許文書間の検索システムを製作中です。ニューラルネットワークや自然言語処理を基礎から学びながら、データ整形、文章の前処理、類似度のスコア取得などを日々行っています。<br>
+        <h3>2024年：</h3>
+        4月から大学院に進学します。
       </p>
     </div>
   </div>
@@ -58,8 +62,56 @@
     <div class="content-text" id="works-text">
       <p>
         これまでに作成した作品を紹介します。<br>
-        作品の詳細は<a href="works.html">こちら</a>から。
+        ここで紹介していない作品の中で、Github上でpublic設定になっているものもあります。<br>詳しくは<a href="https://github.com/nightshrine">Githubのマイページ</a>をご覧ください。
       </p>
+      <div class="work-frame">
+        <h3>
+          ~軽音サークル日程調整アプリ~          
+        </h3>
+        <div class="work-content">
+          <div class="work-video">
+            <!-- 動画の埋め込みコード -->
+            <video controls id="kon_schedule">
+              <source src="video/kon_schedule_app2_new.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="work-description">
+            <!-- 説明内容 -->
+            <p>
+              【概要】所属している軽音楽サークルでは、コマごとに予約することで学内の練習室を使用できます。本アプリでは、コマごとに日程を調整することができます。<br><br>
+              【開発人数】1人<br><br>
+              【利用技術】React、Node.js、MySQL、Material-UI<br><br>
+              【開発環境】Linux(Ubuntu20.04)、Visual Studio Code<br><br>
+              【作成した目的と成果】Web開発の技術力向上のために、企画、開発、運用を1人で行ってみたいと思ったことが目的です。herokuがサービス終了してしまったことや、その他タイミングに恵まれず、実際に使ってもらうことはできませんでしたが、企画、開発を行った経験から、フロントエンドとバックエンドの知識、個人開発を行う難しさと楽しさを学びました。<br><br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-frame">
+        <h3>
+          ~イベント設定・予約サイト~          
+        </h3>
+        <div class="work-content">
+          <div class="work-image">
+            <!-- 動画の埋め込みコード -->
+            <img src="image/laravel_js_mysql_t.png" height="600x" alt="イメージ画像">
+          </div>
+          <div class="work-description">
+            <!-- 説明内容 -->
+            <p>
+              【概要】Froalaを用いたイベント設定や、FullCalendarを用いた予約が可能で、FullCalendarはgoogleカレンダーと連携することができます。(業務で行ったため、イメージ画像を載せることができません。ご了承ください。)<br><br>
+              【開発人数】1人(社員の方の協力あり)<br><br>
+              【利用技術】Laravel, JavaScript, UIkit, MySQL, FullCalendar, Froala<br><br>
+              【開発環境】Mac、Visual Studio Code<br><br>
+              【成果】開発の過程で、私はLaravel、JavaScript、UIkit、MySQLといった幅広い技術を習得し、それらを組み合わせて効果的なイベント設定および予約システムを構築できました。特に、FullCalendarとGoogleカレンダーを連携させるということは初めての経験だったため、とても有意義な経験をさせていただきました。<br><br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      ここで紹介していない作品の中で、Github上でpublic設定になっているものもあります。<br>詳しくは<a href="https://github.com/nightshrine">Githubのマイページ</a>をご覧ください。
     </div>
   </div>
   <div class="content" id="tips">
@@ -68,8 +120,8 @@
     </div>
     <div class="content-text" id="tips-text">
       <p>
-        これまでに学んだことをまとめています。<br>
-        詳細は<a href="tips.html">こちら</a>から。
+        これまでに学んだことをTipsや活動記録としてQiitaにまとめています。<br>
+        記事閲覧は<a href="https://qiita.com/fwzis">Qiitaのマイページ</a>をご覧ください。
       </p>
     </div>
   </div>
@@ -79,7 +131,9 @@
     </div>
     <div class="content-text" id="contact-text">
       <p>
-        お問い合わせは<a href="contact.html">こちら</a>から。
+        お問い合わせは<a href="mailto:yamamoto.shunsuke.20@gmail.com?subject=お問い合わせ">こちら</a>
+        から。(yamamoto.shunsuke.20@gmail.com宛てのメールソフトが立ち上がります。)<br>
+        Web系であれば、フロントエンド、バックエンド問わず尽力いたします。お仕事の依頼などあれば、是非ご連絡ください。お待ちしております。
       </p>
     </div>
   </div>

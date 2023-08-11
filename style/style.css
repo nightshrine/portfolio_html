@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-video {
+#myVideo {
   position: fixed;
   top: 0;
   left: 0;
@@ -124,6 +124,27 @@ nav li {
 #works {
   background-color: #6fc8ff40;
 }
+
+#works h3 {
+  font-size: 54px;
+  text-align: center;
+}
+
+.work-content {
+  /* 既存のスタイル */
+  display: flex; /* 追加: 要素を横に並べる */
+
+  justify-content: space-between;
+}
+.work-video {
+  /* 動画のスタイル */
+  width: 50%; /* 動画の幅を半分に設定 */
+}
+.work-description {
+  /* 説明のスタイル */
+  width: 50%; /* 説明の幅を半分に設定 */
+}
+
 
 #tips {
   background-color: #7bff6f40;
