@@ -154,6 +154,31 @@ nav li {
   background-color: #7bff6f40;
 }
 
+#tips h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.tips-frame {
+  margin-bottom: 50px;
+}
+
+.tips-content {
+  /* 既存のスタイル */
+  display: flex; /* 追加: 要素を横に並べる */
+
+  justify-content: space-between;
+}
+
+.tips-image {
+  flex: 2 
+}
+
+.tips-description {
+  flex: 1;
+  padding: 0 50px;
+}
+
 .content h2 {
   font-size: 81px;
   font-family: 'Caveat', cursive;
